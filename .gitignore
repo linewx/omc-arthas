@@ -13,7 +13,7 @@ output/
 *.pyc
 new_output/
 itsmax.bo
-omw.egg-info/
+omc_arthas.egg-info/
 build/
 dist/
 .vscode/
