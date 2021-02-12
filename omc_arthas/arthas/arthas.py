@@ -18,6 +18,6 @@ class Arthas(Resource, CmdTaskMixin):
         return ""
 
     def _run(self):
-        arthas = pkg_resources.resource_filename(__name__, '../lib/arthas-boot.jar')
+        arthas = pkg_resources.resource_filename('omc_arthas.lib', 'arthas-boot.jar')
         cmd = "java -jar %s" % arthas
         self.run_cmd(cmd)
